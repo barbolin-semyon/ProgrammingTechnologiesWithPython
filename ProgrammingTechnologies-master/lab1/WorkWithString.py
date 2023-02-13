@@ -3,7 +3,7 @@ import string
 from PrintUtil import printHeader, printTitleTask
 
 
-def mainWorkWithString():
+if __name__ == "__main__":
     printHeader("STRINGS")
 
     printTitleTask(4)

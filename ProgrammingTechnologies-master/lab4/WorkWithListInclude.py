@@ -1,7 +1,7 @@
 from PrintUtil import printTitleTask, printHeader
 
 
-def mainWorkWithListInclusion():
+if __name__ == "__main__":
     printHeader("LISTINCLUSIONS")
 
     printTitleTask(4)

@@ -4,7 +4,7 @@ import datetime
 from PrintUtil import printTitleTask, printHeader
 
 
-def mainWorkWithFunction():
+if __name__ == "__main__":
     printHeader("FUNCTION")
 
     printTitleTask(1)

@@ -2,7 +2,7 @@ import math
 
 from PrintUtil import printTitleTask, printHeader
 
-def mainWorkWithArifmetic():
+if __name__ == "__main__":
     printHeader("ARIFMETIC")
 
     printTitleTask(2)

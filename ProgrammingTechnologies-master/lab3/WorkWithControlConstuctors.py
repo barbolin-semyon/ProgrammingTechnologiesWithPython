@@ -3,7 +3,7 @@ import string
 from PrintUtil import printHeader, printTitleTask
 
 
-def mainWorkWithControlConstuctors():
+if __name__ == "__main__":
     printHeader("CONTROL CONSTRUCTORS")
 
     printTitleTask(1)

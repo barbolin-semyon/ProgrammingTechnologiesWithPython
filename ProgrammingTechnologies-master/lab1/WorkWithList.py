@@ -1,7 +1,7 @@
 from PrintUtil import printTitleTask, printHeader
 
 
-def mainWorkWithList():
+if __name__ == "__main__":
     printHeader("LIST")
 
     printTitleTask(9)

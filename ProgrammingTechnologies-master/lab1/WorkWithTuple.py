@@ -1,7 +1,7 @@
 from PrintUtil import printHeader, printTitleTask
 
 
-def mainWorkWithTuple():
+if __name__ == "__main__":
     printHeader("Tuple")
 
     printTitleTask(1)

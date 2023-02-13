@@ -1,6 +1,6 @@
 from PrintUtil import printTitleTask, printHeader
 
-def mainWorkWithDict():
+if __name__ == "__main__":
     printHeader("DICT")
 
     printTitleTask(6)

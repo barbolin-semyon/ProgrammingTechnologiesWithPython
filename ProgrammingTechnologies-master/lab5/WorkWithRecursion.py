@@ -3,7 +3,7 @@ import string
 from PrintUtil import printHeader, printTitleTask
 
 
-def mainWorkWithRecursion():
+if __name__ == "__main__":
     printHeader("RECURSION")
 
     printTitleTask(3)

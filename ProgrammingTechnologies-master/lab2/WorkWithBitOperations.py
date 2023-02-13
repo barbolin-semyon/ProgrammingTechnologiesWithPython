@@ -1,6 +1,6 @@
 from PrintUtil import printTitleTask, printHeader
 
-def mainWorkWithBitOperations():
+if __name__ == "__main__":
     printHeader("BIT OPERATIONS")
 
     printTitleTask(3)

@@ -3,7 +3,7 @@ import math
 from PrintUtil import printHeader, printTitleTask
 
 
-def mainWorkWithCycles():
+if __name__ == "__main__":
     printHeader("Cycles")
 
     printTitleTask(1)

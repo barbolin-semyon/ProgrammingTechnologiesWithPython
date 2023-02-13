@@ -2,7 +2,7 @@ import string
 from PrintUtil import printHeader, printTitleTask
 
 
-def main_work_with_generators():
+if __name__ == "__main__":
     printHeader("GENERATORS")
 
     printTitleTask(1)

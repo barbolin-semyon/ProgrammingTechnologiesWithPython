@@ -5,7 +5,7 @@ import char as char
 from PrintUtil import printHeader, printTitleTask
 
 
-def main_work_with_decorate():
+if __name__ == "__main__":
     printHeader("Decorate")
 
     printTitleTask(5)

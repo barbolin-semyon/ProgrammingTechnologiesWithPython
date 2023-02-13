@@ -1,7 +1,7 @@
 from PrintUtil import printTitleTask, printHeader
 
 
-def mainWorkWithSet():
+if __name__ == "__main__":
     printHeader("SET")
 
     printTitleTask(8)
