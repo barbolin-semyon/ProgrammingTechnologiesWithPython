@@ -1,19 +1,15 @@
-from PrintUtil import printTitleTask, printHeader
-
 
 if __name__ == "__main__":
-    printHeader("SET")
-
-    printTitleTask(8)
+    print("\nЗадание: 8")
     task8()
 
-    printTitleTask(10)
+    print("\nЗадание: 10")
     task10()
 
-    printTitleTask(11)
+    print("\nЗадание: 11")
     task11()
 
-    printTitleTask(12)
+    print("\nЗадание: 12")
     task12()
 
 def task8():

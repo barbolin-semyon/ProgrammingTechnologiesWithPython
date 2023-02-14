@@ -1,19 +1,15 @@
-from PrintUtil import printHeader, printTitleTask
-
 
 if __name__ == "__main__":
-    printHeader("Tuple")
-
-    printTitleTask(1)
+    print("\nЗадание: 1")
     task1()
 
-    printTitleTask(7)
+    print("\nЗадание: 7")
     task7()
 
-    printTitleTask(16)
+    print("\nЗадание: 16")
     task16()
 
-    printTitleTask(19)
+    print("\nЗадание: 19")
     task19()
 
 def task1():

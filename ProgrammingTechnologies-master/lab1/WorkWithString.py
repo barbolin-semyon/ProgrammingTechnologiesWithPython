@@ -1,18 +1,14 @@
 import string
 
-from PrintUtil import printHeader, printTitleTask
-
-
 if __name__ == "__main__":
-    printHeader("STRINGS")
 
-    printTitleTask(4)
+    print("\nЗадание: 4")
     task4()
 
-    printTitleTask(5)
+    print("\nЗадание: 5")
     task5()
 
-    printTitleTask(10)
+    print("\nЗадание: 10")
     task10()
 
 def task4():

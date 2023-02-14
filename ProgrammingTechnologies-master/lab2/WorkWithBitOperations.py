@@ -1,27 +1,29 @@
 from PrintUtil import printTitleTask, printHeader
 
 if __name__ == "__main__":
-    printHeader("BIT OPERATIONS")
-
-    printTitleTask(3)
+    print("\nЗадание: 3")
     task3()
 
-    printTitleTask(5)
+    print("\nЗадание: 5")
     task5()
 
-    printTitleTask(8)
+    print("\nЗадание: 8")
     task8()
 
-    printTitleTask(10)
+    print("\nЗадание: 10")
     task10()
+
+
 def task3():
     inputValue: int = 2
     inputValue = inputValue << 4
     print(bin(inputValue))
 
+
 def task5():
     z: int = 0b1011010
     print(z % 10 == 1)
+
 
 def task8():
     z: int = 149
@@ -34,5 +36,5 @@ def task8():
 
 def task10():
     z: int = 512
-    z= z >> 2
+    z = z >> 2
     print(z)
