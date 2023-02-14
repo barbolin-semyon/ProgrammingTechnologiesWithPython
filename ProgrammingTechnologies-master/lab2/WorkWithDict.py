@@ -1,22 +1,5 @@
-from PrintUtil import printTitleTask, printHeader
-
-if __name__ == "__main__":
-    print("\nЗадание: 6")
-    task6()
-
-    print("\nЗадание: 8")
-    task8()
-
-    print("\nЗадание: 12")
-    task12()
-
-    print("\nЗадание: 14")
-    task14()
-
-
 def task6():
-    my_dict = {1: 10, 'a': 5, 'b': -2}
-    my_dict['a'] = 10
+    my_dict = {1: 10, 'a': 10, 'b': -2}
     print(my_dict)
 
 
@@ -36,3 +19,17 @@ def task14():
     values = tuple(my_dict.values())
     print("keys:", keys)
     print("values:", values)
+
+
+if __name__ == "__main__":
+    print("\nЗадание: 6")
+    task6()
+
+    print("\nЗадание: 8")
+    task8()
+
+    print("\nЗадание: 12")
+    task12()
+
+    print("\nЗадание: 14")
+    task14()

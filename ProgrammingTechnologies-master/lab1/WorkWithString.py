@@ -1,15 +1,5 @@
 import string
 
-if __name__ == "__main__":
-
-    print("\nЗадание: 4")
-    task4()
-
-    print("\nЗадание: 5")
-    task5()
-
-    print("\nЗадание: 10")
-    task10()
 
 def task4():
     str1: string = "Цель работы: познакомиться с основными"
@@ -26,3 +16,14 @@ def task5():
 def task10():
     s1: string = "Как дела?"
     print(s1[::-1])
+
+
+if __name__ == "__main__":
+    print("\nЗадание: 4")
+    task4()
+
+    print("\nЗадание: 5")
+    task5()
+
+    print("\nЗадание: 10")
+    task10()

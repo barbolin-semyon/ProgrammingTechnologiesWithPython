@@ -1,19 +1,3 @@
-from PrintUtil import printTitleTask, printHeader
-
-if __name__ == "__main__":
-    print("\nЗадание: 3")
-    task3()
-
-    print("\nЗадание: 5")
-    task5()
-
-    print("\nЗадание: 8")
-    task8()
-
-    print("\nЗадание: 10")
-    task10()
-
-
 def task3():
     inputValue: int = 2
     inputValue = inputValue << 4
@@ -38,3 +22,17 @@ def task10():
     z: int = 512
     z = z >> 2
     print(z)
+
+
+if __name__ == "__main__":
+    print("\nЗадание: 3")
+    task3()
+
+    print("\nЗадание: 5")
+    task5()
+
+    print("\nЗадание: 8")
+    task8()
+
+    print("\nЗадание: 10")
+    task10()
