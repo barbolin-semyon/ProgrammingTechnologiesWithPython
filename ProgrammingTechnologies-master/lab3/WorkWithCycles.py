@@ -2,26 +2,6 @@ import math
 
 from PrintUtil import printHeader, printTitleTask
 
-
-if __name__ == "__main__":
-    printHeader("Cycles")
-
-    printTitleTask(1)
-    task1()
-
-    printTitleTask(3)
-    task3()
-
-    printTitleTask(8)
-    task8()
-
-    printTitleTask(10)
-    task10()
-
-    printTitleTask(20)
-    task20()
-
-
 def task1():
     my_list1 = [1, 2, 3, 4, 9, 7, 4, 5.3, 9.7, 3]
     sum: float = 0.0
@@ -68,3 +48,21 @@ def task20():
         result += numerator / denominator
 
     print(result)
+
+
+if __name__ == "__main__":
+
+    print("\nЗадание: 1")
+    task1()
+
+    print("\nЗадание: 3")
+    task3()
+
+    print("\nЗадание: 8")
+    task8()
+
+    print("\nЗадание: 10")
+    task10()
+
+    print("\nЗадание: 20")
+    task20()

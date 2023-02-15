@@ -1,24 +1,5 @@
 import math
 
-from PrintUtil import printTitleTask, printHeader
-
-if __name__ == "__main__":
-    printHeader("ARIFMETIC")
-
-    printTitleTask(2)
-    task2()
-
-    printTitleTask(3)
-    task3()
-
-    printTitleTask(6)
-    task6()
-
-    printTitleTask(12)
-    task12()
-
-    printTitleTask(18)
-    task18()
 def task2():
     val1: int = 10
     val2: int = int(input("Введите число"))
@@ -44,3 +25,19 @@ def task18():
     result: float = numerator / denominator
 
     print(result)
+
+if __name__ == "__main__":
+    print("\nЗадание: 2")
+    task2()
+
+    print("\nЗадание: 3")
+    task3()
+
+    print("\nЗадание: 6")
+    task6()
+
+    print("\nЗадание: 12")
+    task12()
+
+    print("\nЗадание: 18")
+    task18()

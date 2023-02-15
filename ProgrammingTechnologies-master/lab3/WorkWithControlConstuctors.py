@@ -2,26 +2,6 @@ import string
 
 from PrintUtil import printHeader, printTitleTask
 
-
-if __name__ == "__main__":
-    printHeader("CONTROL CONSTRUCTORS")
-
-    printTitleTask(1)
-    task1()
-
-    printTitleTask(5)
-    task5()
-
-    printTitleTask(7)
-    task7()
-
-    printTitleTask(15)
-    task15()
-
-    printTitleTask(18)
-    task18()
-
-
 def task1():
     month: int = int(input("Введите месяц(числом): "))
     if 0 < month < 13:
@@ -41,7 +21,7 @@ def task1():
 def task5():
     val1: int = int(input("Введите оклад: "))
 
-    if (val1 > 100000):
+    if val1 > 100000:
         val1 -= val1 / 100 * 13
     else:
         val1 -= val1 / 100 * 6
@@ -50,7 +30,7 @@ def task5():
 
 def task7():
     my_list = [int(i) for i in input().split()]
-    if (my_list[len(my_list) / 2] >= 10):
+    if my_list[len(my_list) / 2] >= 10:
         print(my_list[0] + my_list[-1])
     else:
         print(my_list[0] * my_list[-1])
@@ -70,3 +50,19 @@ def task18():
         print(course * float(request[:-1]), "R", sep="")
     else:
         print(float(request[:-1]) / course, "$", sep="")
+
+if __name__ == "__main__":
+    print("\nЗадание: 1")
+    task1()
+
+    print("\nЗадание: 5")
+    task5()
+
+    print("\nЗадание: 7")
+    task7()
+
+    print("\nЗадание: 15")
+    task15()
+
+    print("\nЗадание: 18")
+    task18()
