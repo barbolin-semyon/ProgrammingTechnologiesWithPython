@@ -1,7 +1,5 @@
 import string
 
-from PrintUtil import printHeader, printTitleTask
-
 def task1():
     month: int = int(input("Введите месяц(числом): "))
     if 0 < month < 13:
@@ -30,7 +28,7 @@ def task5():
 
 def task7():
     my_list = [int(i) for i in input().split()]
-    if my_list[len(my_list) / 2] >= 10:
+    if my_list[len(my_list) // 2] >= 10:
         print(my_list[0] + my_list[-1])
     else:
         print(my_list[0] * my_list[-1])

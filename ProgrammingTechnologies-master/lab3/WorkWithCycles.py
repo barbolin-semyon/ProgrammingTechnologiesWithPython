@@ -1,14 +1,11 @@
 import math
 
-from PrintUtil import printHeader, printTitleTask
-
 def task1():
     my_list1 = [1, 2, 3, 4, 9, 7, 4, 5.3, 9.7, 3]
     sum: float = 0.0
 
     for i in my_list1: sum += i
     print(sum)
-
 
 def task3():
     my_list1 = [1, 2, 3, 4, 9, 7, 4, 5.3, 9.7, 3]
