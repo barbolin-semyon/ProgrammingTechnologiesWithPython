@@ -1,27 +1,6 @@
 import calendar
 import datetime
 
-from PrintUtil import printTitleTask, printHeader
-
-
-if __name__ == "__main__":
-    printHeader("FUNCTION")
-
-    printTitleTask(1)
-    print(max_number([1, 3, 21, 5]))
-
-    printTitleTask(3)
-    print(add([1], [2, 3]))
-
-    printTitleTask(5)
-    print(find_list_index([1, 3, 5, 7], 5))
-
-    printTitleTask(18)
-    print(month_days(0))
-
-    printTitleTask(25)
-    print(algebraic_sum(3))
-
 def max_number(numbers: list):
     return max(numbers)
 
@@ -45,3 +24,19 @@ def algebraic_sum(N: int, k: int = 2):
     sum = 0
     for i in range(1, N + 1): sum += i**k
     return sum
+
+if __name__ == "__main__":
+    print("\nЗадание: 1")
+    print(max_number([1, 3, 21, 5]))
+
+    print("\nЗадание: 3")
+    print(add([1], [2, 3]))
+
+    print("\nЗадание: 5")
+    print(find_list_index([1, 3, 5, 7], 5))
+
+    print("\nЗадание: 18")
+    print(month_days(0))
+
+    print("\nЗадание: 25")
+    print(algebraic_sum(3))
