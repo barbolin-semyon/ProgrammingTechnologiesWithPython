@@ -1,6 +1,6 @@
 import string
 
-def recursion_max(numbers: list):
+def recursion_max(numbers: list) -> int:
     if len(numbers) == 1: return numbers[0]
 
     if numbers[0] <= numbers[1]:
@@ -11,12 +11,12 @@ def recursion_max(numbers: list):
     return recursion_max(numbers)
 
 
-def factorial(n: int):
+def factorial(n: int) -> int:
     if (n == 1): return 1
     return n * factorial(n - 1)
 
 
-def remove_v(text: string):
+def remove_v(text: string) -> string:
     if len(text) == 0: return ''
 
     symbol: string = ''
@@ -25,7 +25,7 @@ def remove_v(text: string):
     return symbol + remove_v(text[1:])
 
 
-def recursion_gcd(number1: int, number2: int):
+def recursion_gcd(number1: int, number2: int) -> int:
     if number1 == number2: return number1
 
     if number1 > number2:
