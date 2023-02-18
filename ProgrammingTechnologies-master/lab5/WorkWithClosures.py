@@ -1,13 +1,13 @@
 import string
 
-def closure_sum(number: int):
+def closure_sum(number: int) -> int:
     def inner(inner_number: int):
         return inner_number + number
 
     return inner
 
 
-def closure_comparison(symbol: string):
+def closure_comparison(symbol: string) -> bool:
     true_symbols = ['>', '<', '=']
 
     def inner(inner_symbol: string):
@@ -16,7 +16,7 @@ def closure_comparison(symbol: string):
     return inner
 
 
-def closure_list_del(numbers: list):
+def closure_list_del(numbers: list) -> list:
     def inner(n: int):
         return [i for i in numbers if i % n != 0]
 
