@@ -1,21 +1,5 @@
 import string
 
-from PrintUtil import printHeader, printTitleTask
-
-
-if __name__ == "__main__":
-    printHeader("RECURSION")
-
-    printTitleTask(4)
-    print(closure_sum(1)(2))
-
-    printTitleTask(5)
-    print(closure_comparison('>')('>'))
-
-    printTitleTask(10)
-    print(closure_list_del([1, 3, 12, 14, 15, 17])(3))
-
-
 def closure_sum(number: int):
     def inner(inner_number: int):
         return inner_number + number
@@ -37,3 +21,13 @@ def closure_list_del(numbers: list):
         return [i for i in numbers if i % n != 0]
 
     return inner
+
+if __name__ == "__main__":
+    print("\nЗадание: 4")
+    print(closure_sum(1)(2))
+
+    print("\nЗадание: 5")
+    print(closure_comparison('>')('>'))
+
+    print("\nЗадание: 10")
+    print(closure_list_del([1, 3, 12, 14, 15, 17])(3))

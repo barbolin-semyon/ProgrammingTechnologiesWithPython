@@ -1,24 +1,5 @@
 import string
 
-from PrintUtil import printHeader, printTitleTask
-
-
-if __name__ == "__main__":
-    printHeader("RECURSION")
-
-    printTitleTask(3)
-    print(recursion_max([1, 11, 66, 10]))
-
-    printTitleTask(5)
-    print(factorial(4))
-
-    printTitleTask(8)
-    print(remove_v("rvvvvrrv"))
-
-    printTitleTask(10)
-    print(recursion_gcd(36, 13))
-
-
 def recursion_max(numbers: list):
     if len(numbers) == 1: return numbers[0]
 
@@ -47,7 +28,20 @@ def remove_v(text: string):
 def recursion_gcd(number1: int, number2: int):
     if number1 == number2: return number1
 
-    if (number1 > number2):
+    if number1 > number2:
         return recursion_gcd(number1 - number2, number2)
     else:
         return recursion_gcd(number2 - number1, number1)
+
+if __name__ == "__main__":
+    print("\nЗадание: 3")
+    print(recursion_max([1, 11, 66, 10]))
+
+    print("\nЗадание: 5")
+    print(factorial(4))
+
+    print("\nЗадание: 8")
+    print(remove_v("rvvvvrrv"))
+
+    print("\nЗадание: 10")
+    print(recursion_gcd(36, 13))
