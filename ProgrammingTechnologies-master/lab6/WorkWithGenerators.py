@@ -1,11 +1,6 @@
 import string
-from PrintUtil import printHeader, printTitleTask
 
-
-if __name__ == "__main__":
-    printHeader("GENERATORS")
-
-    printTitleTask(1)
+printTitleTask(1)
     gen = my_generator(1, 100, 2)
     for i in gen: print(i, end = ' ')
 
@@ -16,7 +11,6 @@ if __name__ == "__main__":
     printTitleTask(7)
     gen = letters("Hello")
     for i in gen: print(i, end=' ')
-
 def my_generator(start: int, end: int, step: int = 1):
     while start <= end:
         yield start
